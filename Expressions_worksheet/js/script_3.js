@@ -4,6 +4,9 @@
 var numberSlices = 8; //Number of slices per Pizza
 var numberPeople = 4; //Total number of Partygoers
 var totalPizzas = 2; //Total pizzas ordered
+var eatenSlices = 2; //Total slices per person eaten
 
-totalSlices = totalPizzas * numberSlices/numberPeople; //Total slices per person consumed
-console.log(totalSlices)
+totalSlices = totalPizzas * numberSlices	; //Total slices
+
+totalSparky = totalSlices - numberPeople * eatenSlices; //Total slices Sparky can have
+console.log(totalSparky)

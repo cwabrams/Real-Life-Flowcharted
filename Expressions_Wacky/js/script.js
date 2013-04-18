@@ -18,7 +18,20 @@ switch (selectedHouse)
 	case "Gryffindor":
 	console.log("Gryffindors, where live the" + " " + hogwartHouses[0])
 		break;
+		
+	case "Ravenclaw":
+	console.log("Ravenclaw, where live the" + " " + hogwartHouses[1])
+		break;
 
+	case "Hufflepuff":
+	console.log("Hufflepuff, where live the" + " " + hogwartHouses[2])
+		break;
+		
+	case "Slytherin":
+	console.log("Slytherin, where live the" + " " + hogwartHouses[3])
+		break;
+}
+	
 
 
 

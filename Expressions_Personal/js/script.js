@@ -11,3 +11,4 @@ var amountPaycheck = prompt("Enter bi-monthly paycheck amount",1385.71)
 totalBills = amountRent + amountXcel + amountCable + amountGrocery
 amountLeft = amountPaycheck * 2 - totalBills
 
+console.log(amountleft)

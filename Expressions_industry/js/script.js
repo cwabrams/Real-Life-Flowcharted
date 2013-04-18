@@ -6,7 +6,7 @@
 var parserEdit = prompt ("Enter total number of parser edits") //Total edits entry
 var parserCreate = prompt ("Enter how many parsers we created") //Total creations entry
 var parserCreatetime = prompt ("Enter average time spent per parser in hours") //Hour average per parser creation
-var customer1TIME = prompt ("Enter time spent on Customer A parsers in hours") //Finance does not bill for this client, so these are removed
+var customer1Time = prompt ("Enter time spent on Customer A parsers in hours") //Finance does not bill for this client, so these are removed
 
 totalTime = parserEdit + parserCreate * parserCreatetime - customer1Time
 

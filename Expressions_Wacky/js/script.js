@@ -1,7 +1,7 @@
 // Charles Abrams 4-17-13 Expressions Assignment (Wacky)
 // JavaScript
-// Creating Array to be used for which values you hold higher than others
-// Need to find out how to link selected house to keyword
+// Script for giving you a valuable piece of info about each Hogwarts House based on user choice
+
 
 var hogwartHouses = ["Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"];
 var selectedHouse = prompt("Please enter your Favorite Hogwarts house"); //User choice of house
@@ -16,4 +16,5 @@ hogwartHouses [3] = "power hungry";
 
 
 
-console.log(selectedHouse1 hogwartHouses [0]);
+
+

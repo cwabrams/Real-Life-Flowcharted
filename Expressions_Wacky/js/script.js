@@ -11,7 +11,7 @@ console.log("You selected" + " " + selectedHouse); //Print to console choice use
 hogwartHouses [0] = "brave at heart";
 hogwartHouses [1] = "of wit and learning";
 hogwartHouses [2] = "just and loyal friends";
-hogwartHouses [3] = "power hungry";
+hogwartHouses [3] = "cunning and power hungry";
 
 switch (selectedHouse) 
 {

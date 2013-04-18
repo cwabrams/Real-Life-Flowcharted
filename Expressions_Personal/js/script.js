@@ -11,4 +11,4 @@ var amountPaycheck = prompt("Enter paycheck amount",2772)
 totalBills = amountRent + amountXcel + amountCable + amountGrocery
 amountLeft = amountPaycheck - totalBills
 
-console.log(amountLeft)
+console.log(totalBills)

@@ -4,8 +4,8 @@
 
 var amountRent = prompt("Enter total rent for Month") //Amount for rent
 var amountXcel = prompt("Enter total for Xcel monthly bill") //Amount for Xcel
-var amountCable = prompt("Enter total for Comcast monthly bill")
-var amountGrocery = prompt("Enter estimated Grocery monthly bill")
+var amountCable = prompt("Enter total for Comcast monthly bill") //Amount for Cable
+var amountGrocery = prompt("Enter estimated Grocery monthly bill") // Amount for Groceries
 var amountPaycheck = prompt("Enter paycheck amount")
 
 totalBills = amountRent + amountXcel + amountCable + amountGrocery

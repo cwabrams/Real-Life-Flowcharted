@@ -9,18 +9,18 @@ var selectedHouse = prompt("Please enter your Favorite Hogwarts house"); //User 
 console.log("You selected" + " " + selectedHouse); //Print to console choice user made
 
 hogwartHouses [0] = "brave at heart";
-hogwartHouses [1] = "education-minded";
+hogwartHouses [1] = "of wit and learning";
 hogwartHouses [2] = "loyal friends";
 hogwartHouses [3] = "power hungry";
 
 switch (selectedHouse) 
 {
 	case "Gryffindor":
-	console.log("Gryffindors, where live the" + " " + hogwartHouses[0])
+	console.log("Gryffindors, where dwell the" + " " + hogwartHouses[0])
 		break;
 		
 	case "Ravenclaw":
-	console.log("Ravenclaw, where live the" + " " + hogwartHouses[1])
+	console.log("Ravenclaw, where live those" + " " + hogwartHouses[1])
 		break;
 
 	case "Hufflepuff":

@@ -9,11 +9,11 @@ var salesTax = .075 //Sales tax percentage
 discountTotal = originalPrice * discountPercentage; //Total discount off product
 discountPrice = originalPrice - discountTotal; //Price of item without tax
 
-taxTotal = discountPrice * salesTax
-discounttaxTotal = taxTotal + discountPrice
+taxTotal = discountPrice * salesTax // Calculate tax total
+discounttaxTotal = taxTotal + discountPrice // Total cost with tax minus discount
 
-//console.log(discountPrice);
-console.log(discounttaxTotal);
+console.log(discountPrice); //No tax total
+console.log(discounttaxTotal); //Tax total
 
 
 

@@ -4,12 +4,13 @@
 // Need to find out how to link selected house to keyword
 
 var hogwartHouses = ["Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"];
+var selectedHouse = prompt("Please enter your Favorite Hogwarts house"); //User choice of house
+
 hogwartHouses [0] = "Brave";
 hogwartHouses [1] = "Intelligent";
 hogwartHouses [2] = "Loyal";
 hogwartHouses [3] = "Powerful";
-var selectedHouse1 = prompt("Please enter your 1st Favorite Hogwarts house"); //User choice of house
-var selectedHouse2 = prompt("Please enter your 2nd Favorite Hogwarts house"); //Second user choice of house
+
 
 
 

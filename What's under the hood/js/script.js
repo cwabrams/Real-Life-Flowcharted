@@ -1,5 +1,7 @@
 // JavaScript
 
-var yearBorn = 1955;
+var width = 3;
+var height = 6;
 
-alert(yearBorn);		
+var area= width * height/2;
+console.log(area); 

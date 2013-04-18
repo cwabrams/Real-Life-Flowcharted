@@ -6,6 +6,8 @@ var amountRent = prompt("Enter total rent for Month",950)
 var amountXcel = prompt("Enter total for Xcel monthly bill")
 var amountCable = prompt("Enter total for Comcast monthly bill",75)
 var amountGrocery = prompt("Enter estimated Grocery monthly bill",300)
-var amountPaycheck = prompt(Enter bi-monthly
+var amountPaycheck = prompt("Enter bi-monthly paycheck amount",1385.71)
 
 totalBills = amountRent + amountXcel + amountCable + amountGrocery
+amountLeft = amountPaycheck * 2 - totalBills
+

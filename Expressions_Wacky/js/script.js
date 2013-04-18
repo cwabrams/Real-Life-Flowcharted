@@ -1,6 +1,6 @@
 // Charles Abrams 4-17-13 Expressions Assignment (Wacky)
 // JavaScript
-// Creating Array to be used for which Hogwarts house you should be sorted into
+// Creating Array to be used for which values you hold higher than others
 
 var hogwartHouses = ["Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"];
 hogwartHouses [0] = "Brave";
@@ -12,4 +12,4 @@ var selectedHouse2 = prompt("Please enter your 2nd Favorite Hogwarts house"); //
 
 
 
-console.log(hogwartHouses [0]);
+console.log(selectedHouse1 hogwartHouses [0]);

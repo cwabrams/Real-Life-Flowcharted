@@ -2,3 +2,4 @@
 // JavaScript
 // Creating Array to be used for which Hogwarts house you should be sorted into
 
+var hogwartHouses [Gryffindor, Ravenclaw, Hufflepuff, Slytherin]

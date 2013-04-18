@@ -6,10 +6,12 @@
 var hogwartHouses = ["Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"];
 var selectedHouse = prompt("Please enter your Favorite Hogwarts house"); //User choice of house
 
-hogwartHouses [0] = "Brave";
-hogwartHouses [1] = "Intelligent";
-hogwartHouses [2] = "Loyal";
-hogwartHouses [3] = "Powerful";
+console.log("You selected" + " " + selectedHouse); //Print to console choice user made
+
+hogwartHouses [0] = "brave at heart";
+hogwartHouses [1] = "education-minded";
+hogwartHouses [2] = "loyal friends";
+hogwartHouses [3] = "power hungry";
 
 
 

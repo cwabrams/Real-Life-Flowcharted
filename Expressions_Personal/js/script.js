@@ -11,7 +11,7 @@ var miscName = prompt("Enter reason for Miscellaneous expense"); //Bringing Misc
 var amountPaycheck = parseInt(prompt("Enter paycheck amount")); //Amount for paycheck
 
 
-var totalBills = amountRent + amountExcel + amountCable + amountGrocery + miscExpese; //Bill total calculation
+var totalBills = amountRent + amountExcel + amountCable + amountGrocery + miscExpense; //Bill total calculation
 var amountLeft = amountPaycheck - totalBills; //Savings left over
 
 console.log("Our total bills were" + " $" + totalBills + " " + "and our potential savings equal" + " $" + amountLeft) 

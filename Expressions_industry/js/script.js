@@ -7,7 +7,7 @@ var parserCreate = prompt ("Enter how many parsers we created"); //Total creatio
 var parserCreatetime = prompt ("Enter average time spent per parser in hours"); //Hour average per parser creation
 var customer1Time = prompt ("Enter time spent on Customer A parsers in hours"); //Finance does not bill for this client, so these are removed
 
-var totalTime = parserEdit + parserCreate * parserCreatetime - customer1Time; // Calculation for Total time
+totalTime = parserEdit + parserCreate * parserCreatetime - customer1Time; // Calculation for Total time
 
 console.log("Total we spent" + " " + totalTime + " " + "team hours this week on parsers"); //Printout for total time
 

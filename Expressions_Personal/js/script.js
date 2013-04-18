@@ -8,7 +8,7 @@ var amountCable = prompt("Enter total for Comcast monthly bill"); //Amount for C
 var amountGrocery = prompt("Enter estimated Grocery monthly bill"); // Amount for Groceries
 //var amountPaycheck = prompt("Enter paycheck amount")
 
-totalBills = amountRent + amountExcel + amountCable + amountGrocery;
+var totalBills = amountRent + amountExcel + amountCable + amountGrocery;
 //amountLeft = amountPaycheck - totalBills
 
 console.log(totalBills)

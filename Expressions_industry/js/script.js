@@ -10,5 +10,5 @@ var customer1Time = prompt ("Enter time spent on Customer A parsers in hours") /
 
 totalTime = parserEdit + parserCreate * parserCreatetime - customer1Time
 
-console.log(totalTime + " " + "team hours spent")
+console.log("Total we spent" + totalTime + " " + "team hours this week on parsers")
 

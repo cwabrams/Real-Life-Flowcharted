@@ -9,7 +9,7 @@ var amountGrocery = prompt("Enter estimated Grocery monthly bill",300)
 var amountPaycheck = prompt("Enter bi-monthly paycheck amount",1385.71)
 
 totalBills = amountRent + amountXcel + amountCable + amountGrocery
-totalPaycheck = amountPaycheck * 2
+totalPaycheck = amountPaycheck + amountPaycheck
 amountLeft = totalPaycheck - totalBills
 
 console.log(amountLeft)

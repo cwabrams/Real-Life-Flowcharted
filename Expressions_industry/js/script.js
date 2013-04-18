@@ -11,5 +11,5 @@ var totalTime = parserEdit + parserCreate * parserCreatetime - customer1Time; //
 
 console.log("Total we spent" + " " + totalTime + " " + "team hours this week on parsers"); //Printout for total time
 
-//alert("Total we spent" + " " + totalTime + " " + "team hours this week on parsers")
+alert("Total we spent" + " " + totalTime + " " + "team hours this week on parsers") //Alert added for practice from the book
 

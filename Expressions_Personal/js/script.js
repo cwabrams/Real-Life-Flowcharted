@@ -11,7 +11,10 @@ var amountPaycheck = parseInt(prompt("Enter paycheck amount")); //Amount for pay
 var totalBills = amountRent + amountExcel + amountCable + amountGrocery; //Bill total calculation
 var amountLeft = amountPaycheck - totalBills; //Savings left over
 
-console.log("Our total bills were" + " " totalBills)
-console.log(totalBills)
-console.log(amountLeft)
+console.log("Our total bills were" + " $" + totalBills + " " + "and our potential savings equal" + " $" + amountLeft) //Printout
+
+
+
+//console.log(totalBills)
+//console.log(amountLeft)
 

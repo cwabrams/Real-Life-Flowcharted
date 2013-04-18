@@ -1,9 +1,9 @@
-// Charles Abrams 4-17-13 Expressions Assignment (Personal)
+// Charles Abrams 4-17-13 Expressions_Personal
 //Javascript
 //Monthly Required Expense report for my family
 
-var amountRent = prompt("Enter total rent for Month")
-var amountXcel = prompt("Enter total for Xcel monthly bill")
+var amountRent = prompt("Enter total rent for Month") //Amount for rent
+var amountXcel = prompt("Enter total for Xcel monthly bill") //Amount for Xcel
 var amountCable = prompt("Enter total for Comcast monthly bill")
 var amountGrocery = prompt("Enter estimated Grocery monthly bill")
 var amountPaycheck = prompt("Enter paycheck amount")

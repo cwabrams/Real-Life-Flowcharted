@@ -16,7 +16,7 @@ var totalBills = amountRent + amountExcel + amountCable + amountGrocery + miscEx
 var amountLeft = amountPaycheck - totalBills; //Savings left over
 
 console.log("Our total bills were" + " $" + totalBills + " " + "and our potential savings equal" + " $" + amountLeft) 
-console.log(miscName + " " + "costing" + " $" + miscExpense + "was a miscellaneous expense")//Printout
+console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense")//Printout
 
 
 

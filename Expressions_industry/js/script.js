@@ -8,5 +8,5 @@ var parserCreatetime = prompt ("Enter average time spent per parser in hours", 1
 
 totalTime = parserEdit + parserCreate * parserCreatetime
 
-console.log(totalTime + "hours")
+console.log(totalTime + " " + "hours")
 

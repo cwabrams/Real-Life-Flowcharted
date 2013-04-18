@@ -8,11 +8,13 @@ var amountCable = parseInt(prompt("Enter total for Comcast monthly bill",75)); /
 var amountGrocery = parseInt(prompt("Enter estimated Grocery monthly bill",300)); // Amount for Groceries
 var amountPaycheck = parseInt(prompt("Enter paycheck amount")); //Amount for paycheck
 var miscExpenses = parseInt(promt("Enter Miscellaneous expense amount")); //Added misc. expense amount 
+var miscName = promtp("Enter reason for Miscellaneous expense"); //Bringing Misc reason as string
 
 var totalBills = amountRent + amountExcel + amountCable + amountGrocery; //Bill total calculation
 var amountLeft = amountPaycheck - totalBills; //Savings left over
 
-console.log("Our total bills were" + " $" + totalBills + " " + "and our potential savings equal" + " $" + amountLeft) //Printout
+console.log("Our total bills were" + " $" + totalBills + " " + "and our potential savings equal" + " $" + amountLeft) 
+console.log(//Printout
 
 
 

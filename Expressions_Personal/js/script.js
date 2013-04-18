@@ -3,12 +3,12 @@
 //Monthly Required Expense report for my family
 
 var amountRent = prompt("Enter total rent for Month");//Amount for rent
-var amountXcel = prompt("Enter total for Xcel monthly bill"); //Amount for Xcel
+var amountExcel = prompt("Enter total for Excel monthly bill"); //Amount for Excel
 var amountCable = prompt("Enter total for Comcast monthly bill"); //Amount for Cable
 var amountGrocery = prompt("Enter estimated Grocery monthly bill"); // Amount for Groceries
 //var amountPaycheck = prompt("Enter paycheck amount")
 
-totalBills = amountRent + amountXcel + amountCable + amountGrocery;
+totalBills = amountRent + amountExcel + amountCable + amountGrocery;
 //amountLeft = amountPaycheck - totalBills
 
 console.log(totalBills)

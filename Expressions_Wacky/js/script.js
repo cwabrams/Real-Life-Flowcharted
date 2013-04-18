@@ -20,15 +20,15 @@ switch (selectedHouse)
 		break;
 		
 	case "Ravenclaw":
-	console.log("Ravenclaw, where live those" + " " + hogwartHouses[1])
+	console.log("Ravenclaw, where dwell those" + " " + hogwartHouses[1])
 		break;
 
 	case "Hufflepuff":
-	console.log("Hufflepuff, where live the" + " " + hogwartHouses[2])
+	console.log("Hufflepuff, where dwell" + " " + hogwartHouses[2])
 		break;
 		
 	case "Slytherin":
-	console.log("Slytherin, where live the" + " " + hogwartHouses[3])
+	console.log("Slytherin, where dwell the" + " " + hogwartHouses[3])
 		break;
 }
 	

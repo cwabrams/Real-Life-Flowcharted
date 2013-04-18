@@ -13,7 +13,11 @@ hogwartHouses [1] = "education-minded";
 hogwartHouses [2] = "loyal friends";
 hogwartHouses [3] = "power hungry";
 
-
+switch (selectedHouse) 
+{
+	case "Gryffindor":
+	console.log("Gryffindors, where live the" + " " + hogwartHouses[0])
+		break;
 
 
 

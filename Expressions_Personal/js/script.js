@@ -15,7 +15,7 @@ var amountPaycheck = parseInt(prompt("Enter paycheck amount")); //Amount for pay
 var totalBills = amountRent + amountExcel + amountCable + amountGrocery + miscExpense; //Bill total calculation
 var amountLeft = amountPaycheck - totalBills; //Savings left over
 
-console.log("Our total bills were" + " $" + totalBills + " " + "and our potential savings equal" + " $" + amountLeft) 
+console.log("Our total bills were" + " $" + totalBills + " " + "and the potential savings for the month equals" + " $" + amountLeft) 
 console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense")//Printouts
 
 

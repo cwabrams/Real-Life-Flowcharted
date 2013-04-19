@@ -13,3 +13,5 @@ console.log("Total we spent" + " " + totalTime + " " + "team hours this week on 
 
 alert("Total we spent" + " " + totalTime + " " + "team hours this week on parsers") //Alert added for practice from the book
 
+//We have to track time at work based on client and task.  A script like this could help in calculating this easier
+

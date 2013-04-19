@@ -14,13 +14,14 @@ var amountPaycheck = parseInt(prompt("Enter paycheck amount")); //Amount for pay
 
 
 var totalBills = amountRent + amountExcel + amountCable + amountGrocery + miscExpense; //Bill total calculation
-var amountLeft = amountPaycheck - totalBills; //Savings left over
-var suggestedSavings = amountLeft * .2; //Suggested savings
+var amountLeft = amountPaycheck - totalBills; //Money after bills
+var suggestedSavings = amountLeft * .4; //Suggested savings calculation
+var spendingMoney = amountLeft - suggestedSavings //Leftover spending money calculation
 
 console.log("Our total bills were" + " $" + totalBills + " " + "and the potential savings for the month equals" + " $" + amountLeft);
-console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense"); //Printouts
+console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense"); 
 console.log("Suggested amount to commit to savings account equals" + " $" + suggestedSavings);
-
+console.log("Spending money available equals" + " $" + spendingMoney);//Printouts
 
 
 //console.log(totalBills)

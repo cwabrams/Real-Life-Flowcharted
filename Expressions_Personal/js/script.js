@@ -19,6 +19,7 @@ var suggestedSavings = amountLeft * .2; //Suggested savings
 
 console.log("Our total bills were" + " $" + totalBills + " " + "and the potential savings for the month equals" + " $" + amountLeft);
 console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense"); //Printouts
+console.log("Suggested amount to commit to savings account equals" + " $" + suggestedSavings);
 
 
 

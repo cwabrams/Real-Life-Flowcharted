@@ -12,11 +12,13 @@ var miscName = prompt("Enter reason for Miscellaneous expense"); //Bringing Misc
 var amountPaycheck = parseInt(prompt("Enter paycheck amount")); //Amount for paycheck
 
 
+
 var totalBills = amountRent + amountExcel + amountCable + amountGrocery + miscExpense; //Bill total calculation
 var amountLeft = amountPaycheck - totalBills; //Savings left over
+var suggestedSavings = amountLeft * .2; //Suggested savings
 
-console.log("Our total bills were" + " $" + totalBills + " " + "and the potential savings for the month equals" + " $" + amountLeft) 
-console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense")//Printouts
+console.log("Our total bills were" + " $" + totalBills + " " + "and the potential savings for the month equals" + " $" + amountLeft);
+console.log(miscName + " " + "costing" + " $" + miscExpense + " " + "was a miscellaneous expense"); //Printouts
 
 
 

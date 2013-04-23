@@ -1,14 +1,18 @@
 // JavaScript practice week 3
 
-var kidHeight = 50
+var kidHeight = 44;
 	minHeight = 48;
+	wParentHeight = 45;
 
 //if child is old enough, print to console "you can ride!"
 
 if(kidHeight > minHeight){
-	//code to be performed if the condition is true
+	//you can ride
 	console.log("You can ride the coaster!");
-}
-if(kidHeight <= minHeight){
+}else if(kidHeight > wParentHeight){
+	//you can ride with a parent
+	console.log("You can ride with a parent");
+}else{
+	//you cannot ride
 	console.log("Too bad, you cannot ride the coaster");
 }

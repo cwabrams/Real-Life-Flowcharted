@@ -1,5 +1,4 @@
-// JavaScript
+// Logical operator practice
 
-var a = 3;
-a --; 
-console.log(a);
+
+

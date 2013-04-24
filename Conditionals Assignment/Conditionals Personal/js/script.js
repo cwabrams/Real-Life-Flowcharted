@@ -17,3 +17,5 @@ if (bloodSugar == "" || bloodSugar == null){
 }else{
 	console.log ("You are fine.")
 }
+
+//Need to figure out how to validate if the field does contain an entry or not

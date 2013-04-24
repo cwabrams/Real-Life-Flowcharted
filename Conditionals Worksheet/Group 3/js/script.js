@@ -6,7 +6,15 @@
 //In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
 //Determine which of the two prices the customer is eligible for.
 
-var age = 40;
-var viewingTime = prompt("What time are you viewing the movie? HH:MM AM/PM format")
+var age = 32;
+var viewingTime = 2
 var ticketPrice = 12;
 var discountPrice = 7;
+
+if (age > 55){
+	console.log ("Your ticket price is" + " " + discountPrice + " " + "dollars.");
+}else if (age < 10){
+	console.log ("Your ticket price is" + " " + discountPrice + " " + "dollars.");
+}else{
+	console.log ("Your ticket price is" + " " + ticketPrice + " " + "dollars.");
+}

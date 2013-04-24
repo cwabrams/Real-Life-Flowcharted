@@ -4,9 +4,9 @@
 
 var bloodSugar = parseInt(prompt("What if your current blood sugar level")); // User input on blod sugar
 	carbsEaten = parseInt(prompt("How many carbs did you recently consume?")); //User input on carbs eaten
-	insulinUnit = 1; 
-	carbsperUnit = 8;
-	unitsDelivered = (carbsEaten / carbsperUnit); 
+	carbsperUnit = parseInt(prompt("How many carbs can one unit of insulin process?")); //User input for carbs per unit
+	insulinUnit = 1; // Not needed, just for reference
+	unitsDelivered = (carbsEaten / carbsperUnit); //Units needed to be delivered by insulin pump
 	
 if (bloodSugar == "" || bloodSugar == null){
 	console.log ("Please try your entry again.")

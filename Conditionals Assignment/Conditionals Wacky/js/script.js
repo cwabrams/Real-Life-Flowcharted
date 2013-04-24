@@ -7,9 +7,9 @@ var dayWeek = prompt("What day of the week is it? (case sensitive)")
 
 if (dayWeek == "Friday" && lastFriday == "Yes"){
 	console.log ("It's beer Friday!")
-}else if (dayWeek == "Monday"){
+}else if (dayWeek == "Monday" && working == "Yes"){
 	console.log ("I hate Mondays.")	
-}else if (dayWeek == "Wednesday"){
+}else if (dayWeek == "Wednesday" && working == "Yes"){
 	console.log ("Hump day! Almost there!")
 }else{
 	console.log ("Another day, another dollar")

@@ -1,18 +1,8 @@
-// JavaScript practice week 3
+// Charles Abrams Conditionals Assignment: Wacky 4-23
+// Is it beer Friday yet?
 
-var kidHeight = 44;
-	minHeight = 48;
-	wParentHeight = 45;
-
-//if child is old enough, print to console "you can ride!"
-
-if(kidHeight > minHeight){
-	//you can ride
-	console.log("You can ride the coaster!");
-}else if(kidHeight > wParentHeight){
-	//you can ride with a parent
-	console.log("You can ride with a parent");
-}else{
-	//you cannot ride
-	console.log("Too bad, you cannot ride the coaster");
-}
+var dayWeek = prompt("What day of the week is it?")
+	lastFriday = prompt("Is it the last Friday of the month?")
+	working = prompt("Are you working on this day?")
+	
+(lastFriday) ? console.log("It's beer Friday!") : console.log("Keep hoping!")

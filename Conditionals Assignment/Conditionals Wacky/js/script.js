@@ -5,10 +5,12 @@ var dayWeek = prompt("What day of the week is it? (case sensitive)")
 	lastFriday = prompt("Is it the last Friday of the month?")
 	working = prompt("Are you working on this day?")
 
-if (dayWeek = "Friday" && lastFriday = "Yes"){
+if (dayWeek == "Friday" && lastFriday == "Yes"){
 	console.log ("It's beer Friday!")
-}else if (dayWeek = "Monday"){
+}else if (dayWeek == "Monday"){
 	console.log ("I hate Mondays.")	
+}else if (dayWeek == "Wednesday"){
+	console.log ("Hump day! Almost there!")
 }else{
 	console.log ("Another day, another dollar")
 }	

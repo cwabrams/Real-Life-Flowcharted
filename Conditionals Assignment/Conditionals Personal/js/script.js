@@ -6,10 +6,12 @@ var bloodSugar = parseInt(prompt("What if your current blood sugar level"); // U
 	carbsEaten = parseInt(prompt("How many carbs did you recently consume?"); //User input on carbs eaten
 	insulinUnit = 1; 
 	carbsperUnit = 8;
-	 
+	unitsDelivered = (carbsEaten / carbsperUnit); 
 	
 if (carbsEaten = 0 && bloodSugar < 70){
 	console.log ("You need to eat something!")
-}else if (carbsEaten > 0){
-	console.log ("You need to enter" + carbsEaten / carbsperUnit)
+}else if (carbsEaten > 0 && bloodSugar > 70){
+	console.log ("You need to enter" + unitsDelivered + " " + "units of insulin.")
+}else{
+	console.log ("You are fine.")
 }

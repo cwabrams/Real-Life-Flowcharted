@@ -4,25 +4,10 @@
 
 //Having issues with the entry being C and wanting to go to F
 
-//var temperature = parseInt(prompt("Enter temperature"));
-//var unitsTemp = prompt("Enter what unit of temperature you want to convert to");
+var temperature = parseInt(prompt("Enter temperature in degrees Fahrenheit"));
 //var	tempFahrenheit = ((temperature * 1.8) + 32);
-//var tempCelsius = ((0.55 * temperature - 32));
+var tempCelsius = (5/9 * (temperature - 32));
 
-//if(unitsTemp = "F"){
-//console.log ("The temperature is" + " " + tempFahrenheit);
-//}else{
-//console.log ("The temperature is" + " " + tempCelsius);
-//}
+console.log ("The temperature is" + " " + tempCelsius + " " + "degrees celsius.")
 
-var temp = parseInt(prompt("Enter current temperature."));
-var tempUnit = prompt("Fahrenheit (F) or Celsius (C) ?");
-var tempF = ((temp * 1.8) + 32);
-var tempC = (temp - 32 * 0.55);
-
-if(tempUnit = "F"){
-	console.log ("The temperature is" + " " + tempF)
-}else{
-	console.log ("The temperature is" + " " + tempC)
-}	
-//convertedTemp = (tempUnit === "F") ? (tempF) : (tempC)
+//havent figured this one out fully.  Trying other example from group 1

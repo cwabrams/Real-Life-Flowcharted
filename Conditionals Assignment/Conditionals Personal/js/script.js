@@ -8,14 +8,13 @@ var bloodSugar = parseInt(prompt("What if your current blood sugar level")); // 
 	insulinUnit = 1; // Not needed, just for reference
 	unitsDelivered = (carbsEaten / carbsperUnit); //Units needed to be delivered by insulin pump
 	
-if (bloodSugar == "" || bloodSugar == null){
-	console.log ("Please try your entry again.")
-}else if (carbsEaten === 0 && bloodSugar < 70){
+if (carbsEaten === 0 && bloodSugar < 70){
 	console.log ("You need to eat something!")
-}else if (carbsEaten > 0){
+}else if (carbsEaten > 0 || bloodSugar > 70){
 	console.log ("You need to enter" + " " + unitsDelivered + " " + "units of insulin.")
-}else{
+}else if (bloodSugar > 70){
 	console.log ("You are fine.")
+}else{
+	console.log ("Please try your entry again.")
 }
-
 //Need to figure out how to validate if the field does contain an entry or not

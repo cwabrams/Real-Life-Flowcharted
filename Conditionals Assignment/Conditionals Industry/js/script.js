@@ -39,7 +39,7 @@ if (ticketTwo == true && ticketTwopriority == "0" || ticketTwopriority == "1"){
 var ticketThree = confirm("Do you have any JUN tickets?"); //JUN is third highest priority
 var ticketThreepriority = prompt("Enter priority of ticket."); //Enter priority
 
-workingTicket = (ticketThree) ? console.log("Check priority of JUN ticket") : console.log("Move onto the next ticket"); //JUN third status check
+workingTicketthree = (ticketThree) ? console.log("Check priority of JUN ticket") : console.log("Move onto the next ticket"); //JUN third status check
 if (ticketThree == true && ticketThreepriority == "0"){
 	console.log ("Work this ticket before priority 2 and 3 TE/APC tickets"); //Must work priority 0 first
 }else if (ticketThree == true && ticketThreepriority == "1"){
@@ -54,7 +54,7 @@ if (ticketThree == true && ticketThreepriority == "0"){
 var ticketFour = confirm("Do you have any POL tickets?"); //JUN is third highest priority
 var ticketFourpriority = prompt("Enter priority of ticket."); //Enter priority
 
-workingTicket = (ticketFour ? console.log("Check priority of POL ticket") : console.log("Move onto the next ticket"); //POL fourth status check
+workingTicketfour = (ticketFour ? console.log("Check priority of POL ticket") : console.log("Move onto the next ticket"); //POL fourth status check
 if (ticketFour == true && ticketFourpriority == "0"){
 	console.log ("Work this ticket before priority 2 and 3 TE/APC tickets"); //Must work priority 0 first
 }else if (ticketFour == true && ticketFourpriority == "1"){

@@ -13,9 +13,16 @@ var ticketOnepriority = prompt("Enter priority of ticket."); //Enter priority
 workingTicket = (ticketOne) ? console.log("Work the TE Ticket") : console.log("Move onto the next ticket"); //TE first status check
 if (ticketOne == true && ticketOnepriority == "0"){
 	console.log "Turnaround time is 2 hours for this ticket"
-}else if (ticketOne ==
+}else if (ticketOne == true && ticketOnepriority == "1"){
+	console.log "Turnaround time is 8 hours for this ticket"
+}else if (ticketOne == true && ticketOnepriority == "2"){
+	console.log "Turnaround time is 24 hours on this ticket"	
+}else{
+	console.log "Turnaround time is 72 hours on this ticket"
+}	
 
-var
+
+//var
 
 
 

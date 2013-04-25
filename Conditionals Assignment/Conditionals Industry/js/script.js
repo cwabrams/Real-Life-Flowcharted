@@ -65,3 +65,5 @@ if (ticketFour == true && ticketFourpriority == "0"){
 	console.log ("Push this ticket back in priority"); //Turnaround for priority 3
 }
 
+//printouts show the ticket notes in order, which is nice when looking at a list of projects/tickets to work on for the day.  
+//want to eventually make this more streamline using new tools that I learn in further Javascript classes

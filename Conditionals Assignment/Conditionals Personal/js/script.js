@@ -15,3 +15,6 @@ if (carbsEaten === 0 && bloodSugar < 70){
 }else{
 	console.log ("Please try your entry again.") //Entries were invalid
 }
+
+
+//My girlfriend came up with this idea.  It is not perfect yet, but it works.  She has been a type 1 diabetic since she was 7. 

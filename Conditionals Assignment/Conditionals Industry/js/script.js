@@ -54,7 +54,7 @@ if (ticketThree == true && ticketThreepriority == "0"){
 var ticketFour = confirm("Do you have any POL tickets?"); //JUN is third highest priority
 var ticketFourpriority = prompt("Enter priority of ticket."); //Enter priority
 
-workingTicketfour = (ticketFour ? console.log("Check priority of POL ticket") : console.log("Move onto the next ticket"); //POL fourth status check
+workingTicketfour = (ticketFour) ? console.log("Check priority of POL ticket") : console.log("Move onto the next ticket"); //POL fourth status check
 if (ticketFour == true && ticketFourpriority == "0"){
 	console.log ("Work this ticket before priority 2 and 3 TE/APC tickets"); //Must work priority 0 first
 }else if (ticketFour == true && ticketFourpriority == "1"){

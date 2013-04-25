@@ -1,18 +1,18 @@
 // Charles Abrams Conditionals Assignment: Wacky 4-23
 // Is it beer Friday yet?
 
-var dayWeek = prompt("What day of the week is it? (case sensitive)")
-	lastFriday = prompt("Is it the last Friday of the month?")
-	working = prompt("Are you working on this day?")
+var dayWeek = prompt("What day of the week is it? (case sensitive)"); //What day of the week is it?
+	lastFriday = prompt("Is it the last Friday of the month?");
+	working = prompt("Are you working on this day?");
 
 if (dayWeek == "Friday" && lastFriday == "Yes"){
-	console.log ("It's beer Friday!")
+	console.log ("It's beer Friday!");
 }else if (dayWeek == "Monday" && working == "Yes"){
-	console.log ("I hate Mondays.")	
+	console.log ("I hate Mondays.");
 }else if (dayWeek == "Wednesday" && working == "Yes"){
-	console.log ("Hump day! Almost there!")
+	console.log ("Hump day! Almost there!");
 }else{
-	console.log ("Another day, another dollar")
+	console.log ("Another day, another dollar");
 }	
 
 	

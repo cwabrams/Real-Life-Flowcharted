@@ -42,14 +42,26 @@ var ticketThreepriority = prompt("Enter priority of ticket."); //Enter priority
 workingTicket = (ticketThree) ? console.log("Check priority of JUN ticket") : console.log("Move onto the next ticket"); //JUN third status check
 if (ticketThree == true && ticketThreepriority == "0"){
 	console.log ("Work this ticket before priority 2 and 3 TE/APC tickets"); //Must work priority 0 first
-}else if (ticketThree == true && ticketOnepriority == "1"){
+}else if (ticketThree == true && ticketThreepriority == "1"){
 	console.log ("Work any TE tickets before working this ticket"); //Turnaround for priority 1
-}else if (ticketThree == true && ticketOnepriority == "2"){
+}else if (ticketThree == true && ticketThreepriority == "2"){
 	console.log ("Turnaround time is 24 hours on this ticket: Work all other TE and APC tickets first"); //Turnaround for priority 2
 }else{
 	console.log ("Push this ticket back in priority"); //Turnaround for priority 3
 }
 
 
+var ticketFour = confirm("Do you have any POL tickets?"); //JUN is third highest priority
+var ticketFourpriority = prompt("Enter priority of ticket."); //Enter priority
 
+workingTicket = (ticketFour ? console.log("Check priority of POL ticket") : console.log("Move onto the next ticket"); //POL fourth status check
+if (ticketFour == true && ticketFourpriority == "0"){
+	console.log ("Work this ticket before priority 2 and 3 TE/APC tickets"); //Must work priority 0 first
+}else if (ticketFour == true && ticketFourpriority == "1"){
+	console.log ("Work any TE/APC/JUN tickets before working this ticket"); //Turnaround for priority 1
+}else if (ticketFour == true && ticketFourpriority == "2"){
+	console.log ("Turnaround time is 24 hours on this ticket: Work all other TE/APC/JUN tickets first"); //Turnaround for priority 2
+}else{
+	console.log ("Push this ticket back in priority"); //Turnaround for priority 3
+}
 

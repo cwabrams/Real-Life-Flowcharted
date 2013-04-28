@@ -3,6 +3,7 @@
 //function functionName () {   //parenthesis can be empty or hold parameters
   //code the function runs
 //}
+//Must invoke (or tell the function to run)
 
 function outputMsg (){
 	console.log("Hello world");
@@ -14,4 +15,5 @@ function calcArea (){
 		area = width * height;
 		console.log(area);
 }	
- 
+
+calcArea(); 

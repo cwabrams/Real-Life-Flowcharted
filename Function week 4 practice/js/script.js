@@ -45,11 +45,14 @@
 //}
 //dogYears();
 
-function dogYears (age){
+function dogYears (age){ //Storage container (parameter)
 	var dogYears = age * 7;
 		console.log("Sparky is " + dogYears + " years old");
 }
 
 var age1 = parseInt(prompt("Enter dog's age"))
-dogYears(age1); //Passing the amount 6 as age
+dogYears(age1); //Passing the amount 6 as age or using the Argument
 dogYears(4); //Passing the amount 4 as age
+
+//Arguments will always be in the function call (passing in information)
+//Parameters will always be in the function definition (storing argument information)

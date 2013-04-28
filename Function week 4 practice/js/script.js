@@ -4,5 +4,14 @@
   //code the function runs
 //}
 
+function outputMsg (){
+	console.log("Hello world");
+}
 
+function calcArea (){
+	var width = 20;
+		height = 30;
+		area = width * height;
+		console.log(area);
+}	
  

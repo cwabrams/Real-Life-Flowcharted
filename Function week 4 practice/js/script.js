@@ -10,11 +10,13 @@ function outputMsg (){
 	console.log("Hello world");
 }
 
+var width = 5; //This variable is scoped outside of the function
+
 function calcArea (){
-	var width = 20;
+	var width = 20; //This variable is scoped INSIDE the function
 		height = 30;
 		area = width * height;
 		console.log(area);
 }	
-
+console.log(width); 
 calcArea(); 

@@ -37,10 +37,17 @@
 	//var area = w * h;
 	//console.log(area);
 //}	
+//Basic layout of code for dogyears
+//function dogYears (){
+//	var age = 4;
+//		dogYears = age * 7;
+//		console.log("Sparky is " + dogYears + " years old");
+//}
+//dogYears();
 
-function dogyears (){
-	var age = 4;
-		dogYears = age * 7;
+function dogYears (age){
+	var dogYears = age * 7;
 		console.log("Sparky is " + dogYears + " years old");
 }
-dogYears();
+dogYears(6); //Passing the amount 6 as age
+dogyears(4); //Passing the amount 4 as age

@@ -31,9 +31,16 @@
 	//code the function runs
 //}	
 
-calcArea(30, 20); //Arguments that will be used in the function
+//calcArea(30, 20); //Arguments that will be used in the function
 
-function CalcArea(w, h){ //Bins that are storing the arguments
-	var area = w * h;
-	console.log(area);
-}	
+//function CalcArea(w, h){ //Bins that are storing the arguments
+	//var area = w * h;
+	//console.log(area);
+//}	
+
+function dogyears (){
+	var age = 4;
+		dogYears = age * 7;
+		console.log("Sparky is " + dogYears + " years old");
+}
+dogYears();

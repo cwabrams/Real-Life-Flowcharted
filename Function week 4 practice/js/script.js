@@ -4,6 +4,7 @@
   //code the function runs
 //}
 //Must invoke (or tell the function to run)
+//Can invoke the code more than once, essentially making it reusable. calcArea(); is the command
 
 function outputMsg (){
 	console.log("Hello world");

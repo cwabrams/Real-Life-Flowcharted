@@ -49,5 +49,7 @@ function dogYears (age){
 	var dogYears = age * 7;
 		console.log("Sparky is " + dogYears + " years old");
 }
-dogYears(6); //Passing the amount 6 as age
-dogyears(4); //Passing the amount 4 as age
+
+var age1 = parseInt(prompt("Enter dog's age"))
+dogYears(age1); //Passing the amount 6 as age
+dogYears(4); //Passing the amount 4 as age

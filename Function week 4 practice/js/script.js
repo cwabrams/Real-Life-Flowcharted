@@ -5,6 +5,7 @@
 //}
 //Must invoke (or tell the function to run)
 //Can invoke the code more than once, essentially making it reusable. calcArea(); is the command
+//Materials in our code = arguments.  Bins to store the materials or code are called parameters
 
 function outputMsg (){
 	console.log("Hello world");
@@ -20,3 +21,10 @@ function calcArea (){
 }	
 console.log(width); 
 calcArea(); 
+
+
+//Basic function layout
+//funcName (argument1, argument2);
+//function funcName(parameter1, parameter2){
+	//code the function runs
+//}	

@@ -2,7 +2,7 @@
 //Goal of this code: To output if Rachele needs to eat/drink something to keep her blood sugar level up, or if she needs to 
 //give herself insulin
 
-var bloodSugar = parseInt(prompt("What if your current blood sugar level")); // User input on blod sugar
+var bloodSugar = parseInt(prompt("What is your current blood sugar level")); // User input on blod sugar
 	carbsEaten = parseInt(prompt("How many carbs did you recently consume?")); //User input on carbs eaten
 	carbsperUnit = parseInt(prompt("How many carbs can one unit of insulin process?")); //User input for carbs per unit
 	insulinUnit = 1; // Not needed, just for reference

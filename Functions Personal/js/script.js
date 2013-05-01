@@ -24,5 +24,9 @@ if (working == true){
 		totalTimeused = schoolTime + cleaningTime + raidTime + sleepTime
 		freeTime = totalTime - totalTimeused
 		console.log("You have " + freeTime + " hours of free time for your work free week.")
-}else
+}else{
+	console.log("Please try your entry again.")
+}
+
+freeTimecalc();
 

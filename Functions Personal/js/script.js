@@ -15,18 +15,18 @@ if (working == true){ //Start of elseif statement
 		totalTimeused = workTime + schoolTime + cleaningTime + raidTime + sleepTime //Calculation
 		freeTime = totalTimeweek - totalTimeused //Final calculation for this if statement
 		console.log("You have " + freeTime + " hours of free time.") //Printout
-}else if (working == false){
-	var	schoolTime = parseInt(prompt("Enter how many hours you need to spend studying per week"));
-		cleaningTime = parseInt(prompt("Enter how many hours you spend on chores per week"));
-		raidTime = parseInt(prompt("Enter how many hours of gaming time you spend per week"));
-		sleepTime = parseInt(prompt("Enter how many hours you need to sleep per night"));
-		totalTimeweek = 168;
-		totalTimeused = schoolTime + cleaningTime + raidTime + sleepTime
-		freeTime = totalTimeweek - totalTimeused
-		console.log("You have " + freeTime + " hours of free time for your work free week.")
+}else if (working == false){ //Else if to eliminate work hours
+	var	schoolTime = parseInt(prompt("Enter how many hours you need to spend studying per week")); //Prompt for study hours
+		cleaningTime = parseInt(prompt("Enter how many hours you spend on chores per week")); //Prompt for chores hours
+		raidTime = parseInt(prompt("Enter how many hours of gaming time you spend per week")); //Prompt for gaming hours
+		sleepTime = parseInt(prompt("Enter how many hours you need to sleep per night")); //Prompt for sleep hours
+		totalTimeweek = 168; //Number of hours in a 7 day week
+		totalTimeused = schoolTime + cleaningTime + raidTime + sleepTime //Calculation
+		freeTime = totalTimeweek - totalTimeused //Final calc
+		console.log("You have " + freeTime + " hours of free time for your work free week.") //Printout
 }else{
-	console.log("Please try your entry again.")
+	console.log("Please try your entry again.") //Fallout if no selection
 }
 }
-freeTimecalc();
+freeTimecalc(); //Calling the named function above
 

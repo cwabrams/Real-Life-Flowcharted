@@ -65,9 +65,13 @@ dogYears(4); //Passing the amount 4 as age
 
 //Anonymous functions are also called closures
 //Example below
+//Must setup anonymous function before you call the function (as below)
 
-var calcArea = function(width, height){
-	var area= width * height;
+var calcArea = function(width,height){
+	var area = width * height;
 	return area; 
 }
-calcArea(20,30);
+
+var a = calcArea(20,30);
+
+console.log(a);

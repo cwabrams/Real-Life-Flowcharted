@@ -8,7 +8,7 @@ function freeTimecalc(){ //Setting the function up
 if (working == true){ //Start of elseif statement	
 	var	workTime = parseInt(prompt("Enter how many hours on average you work per week")); //Prompt for work hours
 		schoolTime = parseInt(prompt("Enter how many hours you need to spend studying per week")); //Prompt for study hours
-		cleaningTime = parseInt(prompt("Enter how many hours you spend on chores per week"));
+		cleaningTime = parseInt(prompt("Enter how many hours you spend on chores per week")); //Prompt for chores hours
 		raidTime = parseInt(prompt("Enter how many hours of gaming time you spend per week"));
 		sleepTime = parseInt(prompt("Enter how many hours you need to sleep per night"));
 		totalTimeweek = 168;

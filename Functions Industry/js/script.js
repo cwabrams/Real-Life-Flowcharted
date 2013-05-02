@@ -15,13 +15,14 @@ if (route == 1){
 	console.log ("It will take you " + totalTime + " minutes to get to work.");
 }else if (route == 16)
 	var walkingTime = parseInt(prompt("Please enter the amount of time it takes to walk from your home to the bus stop (in minutes.)"));
-	var busTime = parseInt(prompt("Please enter the amount of time it is scheduled to take you on the bus (in minutes).");
+	var busTime = parseInt(prompt("Please enter the amount of time it is scheduled to take you on the bus (in minutes)."));
 	var journeyWalk = parseInt(prompt("Please enter the amount of time it takes to walk from your final stop to work (in minutes)."));
 	var totalTime = walkingTime + busTime + journeyWalk;
 	console.log ("It will take you " + totalTime + " minutes to get to work.");
 	console.log ("It will take you " + totalTime + " minutes to get to work.");
-}else
+}else{
 	console.log ("Please try your entry again.")
+}
 
 calculateTime(); 
 

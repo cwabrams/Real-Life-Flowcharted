@@ -12,12 +12,14 @@ if (route == 1){ //Start of elseif statement
 		var busTime = parseInt(prompt("Please enter the amount of time it is scheduled to take you on the bus (in minutes).")); //Entering travel time
 		var journeyWalk = parseInt(prompt("Please enter the amount of time it takes to walk from your final stop to work (in minutes).")); //Entering travel time
 		var totalTime = walkingTime + busTime + journeyWalk; //Calculation
+		alert("It will take you " + totalTime + " minutes to get to work."); //Alert for printout
 		console.log ("It will take you " + totalTime + " minutes to get to work."); //Printout for once the function is called
 }else if (route == 16){
 		var walkingTime = parseInt(prompt("Please enter the amount of time it takes to walk from your home to the bus stop (in minutes.)")); //Entering travel time
 		var busTime = parseInt(prompt("Please enter the amount of time it is scheduled to take you on the bus (in minutes).")); //Entering travel time
 		var journeyWalk = parseInt(prompt("Please enter the amount of time it takes to walk from your final stop to work (in minutes).")); //Entering travel time
 		var totalTime = walkingTime + busTime + journeyWalk; //Calculation
+		alert("It will take you " + totalTime + " minutes to get to work."); //Alert for printout
 		console.log ("It will take you " + totalTime + " minutes to get to work."); //Printout for once the function is called
 }else{
 		console.log ("Please try your entry again.")
@@ -25,6 +27,6 @@ if (route == 1){ //Start of elseif statement
 } //Closing function
 
 calculateTime(); 
-console.log ("Thank you for choosing route services")
+console.log ("Thank you for choosing route services!")
 		
 // Need to add final notes.

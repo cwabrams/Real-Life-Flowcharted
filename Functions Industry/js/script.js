@@ -6,12 +6,18 @@
 function calculateTime(w, b, j){ //Using parameters here
 	var route = confirm("Select OK if you are taking route 1 or select cancel if you are taking route 16.")	
 proceed = (route) ? console.log("You selected Route 1") : console.log("You selected route 16"); //Printout
-	var route1 = 15; 
+	/*var route1 = 15; 
 		route16 = 20; 
 		walkHome = 2; 
 		walkWorkone = 4; 
-		walkWorksix = 6; 
+		walkWorksix = 6; */
 	var totalTime = w + b + j;
 	console.log(totalTime);
+if (route == true){
+	calculateTime(2, 15, 4); //Arguments entered here
+}else{
+	calculateTime(2, 20, 6);
 }
-calculateTime(2, 15, 4); //Arguments entered here
+}
+
+calculateTime(); 

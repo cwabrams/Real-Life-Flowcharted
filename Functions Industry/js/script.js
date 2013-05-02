@@ -22,11 +22,12 @@ if (route == 1){ //Start of elseif statement
 		alert("It will take you " + totalTime + " minutes to get to work."); //Alert for printout
 		console.log ("It will take you " + totalTime + " minutes to get to work."); //Printout for once the function is called
 }else{
-		console.log ("Please try your entry again.")
+		alert ("Please try your entry again.");
+		console.log ("Please try your entry again."); //Fallout if wrong route selected
 } //Closing elseif
 } //Closing function
 
-calculateTime(); 
-console.log ("Thank you for choosing route services!")
+calculateTime(); //Calling of the function
+console.log ("Thank you for choosing route services!") //Closing printout
 		
 // Need to add final notes.

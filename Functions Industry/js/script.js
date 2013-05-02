@@ -3,13 +3,13 @@
 // Walk time from home to starting stop and final stop to final destination
 // 3 parameters in this one 
 
-function calculateTime(w, b, j){ //Using parameters here
-	var route = confirm("Select OK if you are taking route 1 or select cancel if you are taking route 16.");	
-	proceed = (route) ? console.log("You selected Route 1") : console.log("You selected route 16"); //Printout
+function calculateTime(w, b, j){ //Using parameters here	
+	//proceed = (route) ? console.log("You selected Route 1") : console.log("You selected route 16"); //Printout
+	var route = parseInt(Prompt("Please enter which route number you are taking?"));
 	var totalTime = w + b + j;
-if (route == true){
+if (route == 1){
 	calculateTime(2, 15, 4);
-}else if(route == false){
+}else if(route == 16){
 	calculateTime(2, 20, 6);
 }else{
 	console.log("Please try your entries again")

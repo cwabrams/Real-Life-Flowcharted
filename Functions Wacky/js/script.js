@@ -23,3 +23,4 @@ if (liquid == true && conversionType == true){ //Start of elseif statement
 	var conversion = conversionCalc(); //Calling function to variable
 	console.log(conversion); //Printout of variable we just set the function to
 
+//Confirmed this function is working as intended. 

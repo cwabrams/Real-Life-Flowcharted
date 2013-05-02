@@ -7,4 +7,4 @@ function calculateTime(w, b, j){ //Using parameters here
 	var totalTime = w + b + j;
 	console.log(area);
 }
-calculateArea(20, 30); //Arguments entered here
+calculateTime(20, 30); //Arguments entered here

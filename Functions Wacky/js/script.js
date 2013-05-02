@@ -24,7 +24,6 @@ var conversion = conversionCalc();
 console.log(conversion); 
 
 
-//Still having issues with the first confirm not just kicking to an error. 
 
 
 

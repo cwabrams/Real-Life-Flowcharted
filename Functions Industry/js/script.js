@@ -9,10 +9,10 @@ proceed = (route) ? console.log("You selected Route 1") : console.log("You selec
 	var totalTime = w + b + j;
 if (route == true){
 	calculateTime(2, 15, 4);
-}else if{
+}else if(route == false){
 	calculateTime(2, 20, 6)
 }else{
-	calculateTime(2, 20, 6);
+	console.log("Please try your entries again")
 }
 console.log(totalTime);
 }

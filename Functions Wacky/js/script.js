@@ -1,4 +1,4 @@
-// Charles Abrams 04-30 Assignment: Functions Wacky
+// Charles Abrams 04-30-2013 Assignment: Functions Wacky
 // Using this to calcule gallons to cups or liters based on user input. (Use ternary)
 
 var conversionCalc = function(){ //Setting the anonymous function
@@ -16,9 +16,9 @@ if (liquid == true && conversionType == true){ //Start of elseif statement
    		calcLitercup = liquidCups * conversionLitercups; //Calculation for cups to liters 
 		return ("You have " + calcLitercup + " liter(s) of liquid."); //Return for prinout
 }else if(liquid == false){
-	console.log("Please try your entry again.");
+	console.log("Please try your entry again."); //Fallout
 }else 
-	console.log("Please try your entry again.");
+	console.log("Please try your entry again."); //Fallout
 }	
 	var conversion = conversionCalc(); //Calling function to variable
 	console.log(conversion); //Printout of variable we just set the function to

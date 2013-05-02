@@ -1,4 +1,4 @@
-// Assignment: Functions Personal
+// Charles Abrams 5-1-2013  Assignment: Functions Personal
 
 //Based on how many hours in a week, calculate how much free time I will have
 //Use Work time, school time, cleaning time, raid time and avg sleep per night
@@ -27,7 +27,7 @@ if (working == true && timeAfterwork > 1){ //Start of elseif statement
 		console.log("You have " + freeTime + " hours of free time for your work free week.") //Printout
 }else{
 	console.log("Please try your entry again.") //Fallout if no selection
-}
-}
+} //Closing elseif
+} //Closing function
 freeTimecalc(); //Calling the named function above
 

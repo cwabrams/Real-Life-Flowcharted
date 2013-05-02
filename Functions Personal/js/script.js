@@ -5,7 +5,8 @@
 
 function freeTimecalc(){ //Setting the function up
 	var working = confirm("Is this a work week?"); //Prompt from user to find out if you work this week or not
-if (working == true){ //Start of elseif statement	
+	var timeAfterwork = parseInt(prompt("Please enter how many hours you will spend after hours at work.")); //Satisfying the conditional other than equals
+if (working == true && timeAfterwork > 1){ //Start of elseif statement	
 	var	workTime = parseInt(prompt("Enter how many hours on average you work per week")); //Prompt for work hours
 		schoolTime = parseInt(prompt("Enter how many hours you need to spend studying per week")); //Prompt for study hours
 		cleaningTime = parseInt(prompt("Enter how many hours you spend on chores per week")); //Prompt for chores hours
@@ -15,7 +16,7 @@ if (working == true){ //Start of elseif statement
 		totalTimeused = workTime + schoolTime + cleaningTime + raidTime + sleepTime //Calculation
 		freeTime = totalTimeweek - totalTimeused //Final calculation for this if statement
 		console.log("You have " + freeTime + " hours of free time.") //Printout
-}else if (working == false){ //Else if to eliminate work hours
+}else if (working == false && timeAfterwork <= 0){ //Else if to eliminate work hours
 	var	schoolTime = parseInt(prompt("Enter how many hours you need to spend studying per week")); //Prompt for study hours
 		cleaningTime = parseInt(prompt("Enter how many hours you spend on chores per week")); //Prompt for chores hours
 		raidTime = parseInt(prompt("Enter how many hours of gaming time you spend per week")); //Prompt for gaming hours

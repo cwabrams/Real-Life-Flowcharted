@@ -1,8 +1,8 @@
 // Charles Abrams 04-30 Assignment: Functions Wacky
 // Using this to calcule gallons to cups or liters based on user input. (Use ternary)
 
-var conversionCalc = function(){
-    var liquid = confirm("Select OK if you are working with a liquid");
+var conversionCalc = function(){ //Setting the anonymous function
+    var liquid = confirm("Select OK if you are working with a liquid"); //Asking the user if they are using a liquid
     proceed = (liquid) ? console.log("Great, you are working with a liquid") : console.log("You are not using a liquid"); //Printout
     var conversionType = confirm("Select OK for gallons and cancel for liter conversions"); 
 if (liquid == true && conversionType == true){

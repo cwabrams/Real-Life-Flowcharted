@@ -9,19 +9,19 @@ if (liquid == true && conversionType == true){ //Start of elseif statement
     var liquidCups = parseInt(prompt("Please enter the amount of liquid in cups.")); //Entered from user
         conversionGalcups = 0.0625; // Gallons per one cup
         calcGalcup = liquidCups * conversionGalcups; //Calculation for cups to gallons
-		return ("You have " + calcGalcup + " gallon(s) of liquid."); 
-}else if(liquid == true && conversionType == false){
+		return ("You have " + calcGalcup + " gallon(s) of liquid."); //Return for prinout 
+}else if(liquid == true && conversionType == false){ //Elseif
     var liquidCups = parseInt(prompt("Please enter the amount of liquid in cups.")); //Entered from user
    		conversionLitercups = 0.236588; //How many liters are in 1 cup
    		calcLitercup = liquidCups * conversionLitercups; //Calculation for cups to liters 
-		return ("You have " + calcLitercup + " liter(s) of liquid."); 
+		return ("You have " + calcLitercup + " liter(s) of liquid."); //Return for prinout
 }else if(liquid == false){
 	console.log("Please try your entry again.");
 }else 
 	console.log("Please try your entry again.");
 }	
-	var conversion = conversionCalc();
-	console.log(conversion); 
+	var conversion = conversionCalc(); //Calling function to variable
+	console.log(conversion); //Printout of variable we just set the function to
 
 
 

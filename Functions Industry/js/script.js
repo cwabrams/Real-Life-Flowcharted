@@ -5,15 +5,16 @@
 
 function calculateTime(w,b,j){ //Using parameters here	
 	var route = parseInt(prompt("Please enter which route number you are taking?"));
+	console.log ("You have chosen route " + route + ".")
 	var totalTime = w + b + j;
+	console.log (totalTime);
 }
+calculateTime(2,15,4); //Enter values for w, b and j here
 console.log("It will take you " + totalTime + " minutes to get to work.");
 
-calculateTime(2,15,4); //Enter values for w, b and j here
-
-
-	b	route1 = 15; 
-	b	route16 = 20; 
-	w	walkHome = 2; 
-	j	walkWorkone = 4; 
-	j	walkWorksix = 6; */
+	/*  Values to use for the two routes I take. 
+		b	route1 = 15; 
+		b	route16 = 20; 
+		w	walkHome = 2; 
+		j	walkWorkone = 4; 
+		j	walkWorksix = 6; */

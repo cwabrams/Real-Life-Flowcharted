@@ -4,7 +4,7 @@
 var conversionCalc = function(){ //Setting the anonymous function
     var liquid = confirm("Select OK if you are working with a liquid"); //Asking the user if they are using a liquid
     proceed = (liquid) ? console.log("Great, you are working with a liquid") : console.log("You are not using a liquid"); //Printout
-    var conversionType = confirm("Select OK for gallons and cancel for liter conversions"); 
+    var conversionType = confirm("Select OK for gallons and cancel for liter conversions"); //Selecting gallons or liters for the conversion
 if (liquid == true && conversionType == true){
     var liquidCups = parseInt(prompt("Please enter the amount of liquid in cups.")); //Entered from user
         conversionGalcups = 0.0625; // Gallons per one cup
